@@ -74,10 +74,7 @@ cd advanced-perceptron-branch-predictor
 Replace `YOUR_USERNAME` with your GitHub username.
 
 ### Compile
-
-```bash
-gcc -O2 -Wall -Wextra -std=c11 Implement_a_dynamic_branch_predictorF.c -o branch_predictor
-```
+gcc -O2 -Wall -Wextra -std=c11 src/Implement_a_dynamic_branch_predictorF.c -o branch_predictor
 
 ### Run
 
@@ -164,9 +161,13 @@ Actual results depend on the selected configuration, branch pattern, trace input
 ```text
 advanced-perceptron-branch-predictor/
 │
-├── Implement_a_dynamic_branch_predictorF.c
 ├── README.md
-└── Project_Report.pdf
+│
+├── src/
+│   └── Implement_a_dynamic_branch_predictorF.c
+│
+└── docs/
+    └── ProjectReport_360.pdf
 ```
 
 The repository can be extended with separate source, documentation, test, trace, and results directories as the project evolves.
